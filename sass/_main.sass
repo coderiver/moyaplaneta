@@ -1,2 +1,50 @@
 // Normally mainpage styles
- 
+.expert
+	overflow: hidden
+	font-family: "Open sans", sans-serif
+	.expert__info
+		width: 220px 
+		float: left
+		text-align: center
+	.expert__av
+		width: 100px 
+		height: 100px 
+		display: inline-block
+		margin-bottom: 12px
+		border-radius: 100px
+		text-decoration: none
+	.expert__name
+		font-size: 16px 
+		color: #444444
+		line-height: 1.8  
+		a
+			text-decoration: none
+			color: #444 
+	.expert__content
+		display: table
+		zoom: 1
+	.expert__opinion
+		font-size: 16px 
+		color: #444444
+		line-height: 1.6
+		background: #FAF7E6
+		margin-bottom: 13px 
+		padding: 25px  27px
+		position: relative
+		&:before
+			position: absolute
+			+s(arrow)
+			top: 30px 
+			left: -20px 
+			content: ' '
+	.expert__seeplace
+		background-color: #ffa700
+		box-shadow: inset 0 -2px 0 rgba(189,129,6,.75)
+		text-align: center
+		display: block
+		height: 60px 
+		line-height: 60px
+		color: #fff
+		font-size: 24px
+		text-shadow: 0 1px 1px rgba(29,26,22,.2)
+		text-decoration: none
